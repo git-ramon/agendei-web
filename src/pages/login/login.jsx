@@ -48,7 +48,7 @@ function Login() {
         <div className="row">
             <div className="col-sm-5 d-flex justify-content-center align-items-center text-center">
 
-                <form className="form-signin" onSubmit={(e) => { e.preventDefault(); ExecuteLogin(); }}>
+                <form className="form-signin">
                     <img src={logo} className="logo mb-4"/>
                     <h5 className="mb-5">Gerencie seus agendamentos de forma descomplicada.</h5>
                     <h5 className="mb-4 text-secondary">Acesse sua conta</h5>
