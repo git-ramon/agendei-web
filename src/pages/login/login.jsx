@@ -32,14 +32,14 @@ function Login() {
                 api.defaults.headers.common['Authorization'] = "Bearer " + response.data.token;
                 navigate("/appointments");
             } else {
-                setMsg("Erro ao efetuar login. " + error.message);
+                setMsg("Erro ao efetuar login.");
             }
             
         } catch (error) {
             if (error.response?.data.error) {
                 setMsg(error.response?.data.error);
             } else {
-                setMsg("Erro ao efetuar login. " + error.message);
+                setMsg("Erro ao efetuar login. " + (error.message || "Erro desconhecido"));
             }
         }
     }
