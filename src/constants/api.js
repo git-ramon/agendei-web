@@ -1,10 +1,7 @@
 import axios from "axios";
 
 const api  =  axios.create({
-    baseURL: "https://agendei-api-kappa.vercel.app/",
-    headers: {
-        'Content-Type': 'application/json',
-    }
+    baseURL: "http://localhost:3001"
 });
 
 export default api;
