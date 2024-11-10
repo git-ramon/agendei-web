@@ -1,4 +1,4 @@
-
+/*
 export const doctors = [
     {
         id_doctor: 1,
@@ -189,3 +189,4 @@ export const doctors_services =[
         price: 500.00
     }
 ];
+*/
